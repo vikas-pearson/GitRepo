@@ -16,6 +16,9 @@ public class HelloWorld {
         System.out.println("Hello World3");
         System.out.println("Hello World4");
         System.out.println("Hello World5");
+        System.out.println("Hello World6");
+        System.out.println("Hello World7");
+
         System.setProperty("webdriver.chrome.driver", "C:\\Data\\DriveA\\Java exe(New Laptop)\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
