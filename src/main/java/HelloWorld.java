@@ -30,4 +30,11 @@ public class HelloWorld {
         System.out.println("Hello TestNG");
         Assert.assertEquals("Google", "Google");
     }
+
+    @Test
+    public void test2()
+    {
+        System.out.println("Hello TestNG");
+        Assert.assertEquals("Google", "Google");
+    }
 }
