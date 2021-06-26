@@ -11,6 +11,8 @@ public class HelloWorld {
     public static void main(String[] args)
     {
         System.out.println("Hello World");
+        System.out.println("Hello World1");
+        System.out.println("Hello World2");
         System.setProperty("webdriver.chrome.driver", "C:\\Data\\DriveA\\Java exe(New Laptop)\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
